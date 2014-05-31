@@ -3,6 +3,7 @@ Remove duplicate chars in a string.
 
 '''
 def unique_str(input_string):
+	#input_string = input_string.lower()
 	length=len(input_string)
 	final_string = ''
 	buffer_char = ''
